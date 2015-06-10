@@ -86,7 +86,7 @@ public class LaoUtils {
 	 * 无论子线程还是子线程均可显示Toast
 	 * @param activity 上下文对象
 	 * @param msg  消息内容
-	 * @param duration 时长 可以选择 0或1=
+	 * @param duration 时长 可以选择 0或1
 	 */
 	public static void ShowToast(final Activity activity,final String msg,final int duration){
 		//判断是否主线程
